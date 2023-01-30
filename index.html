@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Favicon start -->
+    <!-- <link      rel="apple-touch-icon"      sizes="180x180"      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link      rel="icon"      type="image/png"      sizes="32x32"      href="./images/favicon/favicon-32x32.png"
+    />
+    <link      rel="icon"      type="image/png"      sizes="16x16"      href="./images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"      type="image/png"      sizes="512x512"      href="./images/favicon/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"      type="image/png"      sizes="192x192"      href="./images/favicon/android-chrome-192x192.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" /> -->
+    <!-- Favicon end -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favic/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./images/favic/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./images/favic/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./images/favic/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./images/favic/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./images/favic/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./images/favic/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./images/favic/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/favic/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./images/favic/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favic/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./images/favic/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favic/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    
+     <!-- MODERN  NORMALIZE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <section class="hero hero-overlay">
+      <div class="container">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-type">Ресторанно-готельний комплекс</h2>
+        <p class="hero-tagline">СМАК ЖИТТЯ 24/7</p>
+
+        <div class="hero-bottom">
+          <address class="hero-address">
+            <a
+              class="hero-address-link link"
+              href="https://goo.gl/maps/QnbdGXvFcmA7h6zF9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><svg class="address-icon" width="20" height="20">
+                <use href="./images/icons-full.svg#icon-location"></use>
+              </svg>
+              <span class="address-text"
+                >Україна, м. Полтава, вул.&nbsp;Маршала Бірюзова, 15</span
+              ></a
+            >
+          </address>
+
+          <ul class="hero-button-list list">
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button js-open-modal"
+                data-modal="1"
+                type="button"
+              >
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button number js-open-modal"
+                data-modal="2"
+                type="button"
+              >
+                Забронювати номер
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="hero-sm-list list">
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://web.telegram.org/z/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hero hero-overlay">
+      <div class="container">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-type">Ресторанно-готельний комплекс</h2>
+        <p class="hero-tagline">СМАК ЖИТТЯ 24/7</p>
+
+        <div class="hero-bottom">
+          <address class="hero-address">
+            <a
+              class="hero-address-link link"
+              href="https://goo.gl/maps/QnbdGXvFcmA7h6zF9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><svg class="address-icon" width="20" height="20">
+                <use href="./images/icons-full.svg#icon-location"></use>
+              </svg>
+              <span class="address-text"
+                >Україна, м. Полтава, вул.&nbsp;Маршала Бірюзова, 15</span
+              ></a
+            >
+          </address>
+
+          <ul class="hero-button-list list">
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button js-open-modal"
+                data-modal="1"
+                type="button"
+              >
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button number js-open-modal"
+                data-modal="2"
+                type="button"
+              >
+                Забронювати номер
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="hero-sm-list list">
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://web.telegram.org/z/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hero hero-overlay">
+      <div class="container">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-type">Ресторанно-готельний комплекс</h2>
+        <p class="hero-tagline">СМАК ЖИТТЯ 24/7</p>
+
+        <div class="hero-bottom">
+          <address class="hero-address">
+            <a
+              class="hero-address-link link"
+              href="https://goo.gl/maps/QnbdGXvFcmA7h6zF9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><svg class="address-icon" width="20" height="20">
+                <use href="./images/icons-full.svg#icon-location"></use>
+              </svg>
+              <span class="address-text"
+                >Україна, м. Полтава, вул.&nbsp;Маршала Бірюзова, 15</span
+              ></a
+            >
+          </address>
+
+          <ul class="hero-button-list list">
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button js-open-modal"
+                data-modal="1"
+                type="button"
+              >
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button number js-open-modal"
+                data-modal="2"
+                type="button"
+              >
+                Забронювати номер
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="hero-sm-list list">
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://web.telegram.org/z/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hero hero-overlay">
+      <div class="container">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-type">Ресторанно-готельний комплекс</h2>
+        <p class="hero-tagline">СМАК ЖИТТЯ 24/7</p>
+
+        <div class="hero-bottom">
+          <address class="hero-address">
+            <a
+              class="hero-address-link link"
+              href="https://goo.gl/maps/QnbdGXvFcmA7h6zF9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><svg class="address-icon" width="20" height="20">
+                <use href="./images/icons-full.svg#icon-location"></use>
+              </svg>
+              <span class="address-text"
+                >Україна, м. Полтава, вул.&nbsp;Маршала Бірюзова, 15</span
+              ></a
+            >
+          </address>
+
+          <ul class="hero-button-list list">
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button js-open-modal"
+                data-modal="1"
+                type="button"
+              >
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-list-item">
+              <button
+                class="hero-button number js-open-modal"
+                data-modal="2"
+                type="button"
+              >
+                Забронювати номер
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="hero-sm-list list">
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="hero-sm-list-item">
+            <a
+              class="hero-sm-link link"
+              href="https://web.telegram.org/z/"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+            >
+              <svg class="hero-sm-icon" width="24" height="24">
+                <use href="./images/icons-full.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MODAL - BOOK THE TABLE -->
+
+    <div class="modal table" data-modal="1">
+      <button class="modal-icon js-modal-close" type="button">
+        <svg class="icon-close" width="18" height="18">
+          <use href="./images/icons-full.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <form class="booking-table-form" name="booking_table_form">
+        <strong class="booking-form-title" id="modal_booking_table_form"
+          >Забронювати столик</strong
+        >
+
+        <div
+          class="booking-table-form-group"
+          role="group"
+          aria-labelledby="modal_booking_table_form"
+        >
+          <div class="booking-table-form-field">
+            <div class="booking-form-input-group">
+              <input
+                class="booking-form-input"
+                type="text"
+                name="user_name"
+                id="user_name"
+                placeholder="Ваше ім’я"
+                required
+                pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                title="Ім'я користувача має складатися з двох слів, розділених пробілом."
+              />
+            </div>
+
+            <label class="booking-form-label" for="user_name"
+              >На кого забронювати столик&#63;</label
+            >
+          </div>
+
+          <div class="booking-table-form-field">
+            <div class="booking-form-input-group">
+              <div class="select-wrapper">
+                <select
+                  class="booking-select-input"
+                  name="tables_quantity"
+                  id="tables_quantity"
+                  title="Оберіть кількість осіб"
+                >
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </div>
+
+              <span class="select-icon">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons-full.svg#icon-arrow-down"></use>
+                </svg>
+              </span>
+            </div>
+
+            <label class="booking-form-label" for="tables_quantity"
+              >Столик на яку кількість осіб&#63;</label
+            >
+          </div>
+
+          <div class="booking-table-form-field">
+            <div class="booking-form-input-group">
+              <input
+                class="booking-form-input"
+                type="tel"
+                name="user_phone"
+                id="user_phone"
+                placeholder="+38 (___) ___-__-__"
+                required
+              />
+            </div>
+
+            <label class="booking-form-label" for="user_phone"
+              >Номер телефону</label
+            >
+          </div>
+
+          <div class="booking-table-form-field">
+            <div class="booking-form-input-group">
+              <div class="select-wrapper">
+                <select
+                  class="booking-select-input"
+                  name="booking_date"
+                  id="booking_date"
+                  required
+                >
+                  <option value="" selected>Сьогодні</option>
+                  <option value="2">Завтра</option>
+                  <option value="3">Післязавтра</option>
+                  <option value="4">Наступного тижня</option>
+                </select>
+              </div>
+
+              <span class="select-icon">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons-full.svg#icon-arrow-down"></use>
+                </svg>
+              </span>
+            </div>
+
+            <label class="booking-form-label" for="booking_date"
+              >На яку дату бронювати&#63;</label
+            >
+          </div>
+        </div>
+
+        <button class="booking-table-form-button" type="submit">
+          Oформити бронювання
+        </button>
+      </form>
+    </div>
+
+    <!-- MODAL - BOOK THE ROOM -->
+    <div class="modal room" data-modal="2">
+      <button class="modal-icon js-modal-close" type="button">
+        <svg class="icon-close" width="18" height="18">
+          <use href="./images/icons-full.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <form class="booking-room-form" name="booking_room_form">
+        <strong class="booking-form-title" id="modal_booking_room_form"
+          >Забронювати номер</strong
+        >
+
+        <div
+          class="booking-room-form-group"
+          role="group"
+          aria-labelledby="modal_booking_room_form"
+        >
+          <div class="booking-room-form-field">
+            <div class="booking-form-input-group">
+              <input
+                class="booking-form-input"
+                type="text"
+                name="user_name"
+                id="user_name"
+                placeholder="Ваше ім’я"
+                required
+                pattern="[А-Яа-я]{1,15}"
+              />
+            </div>
+
+            <label class="booking-form-label" for="user_name"
+              >На кого забронювати номер&#63;</label
+            >
+          </div>
+
+          <div class="booking-room-form-field">
+            <div class="booking-form-input-group">
+              <input
+                class="booking-form-input"
+                type="tel"
+                name="user_phone"
+                id="user_phone"
+                placeholder="+38 (___) ___-__-__"
+                required
+                pattern="[0-9]{3}"
+              />
+            </div>
+
+            <label class="booking-form-label" for="user_phone"
+              >Номер телефону</label
+            >
+          </div>
+
+          <div class="booking-room-form-field">
+            <div class="booking-form-input-group">
+              <div class="select-wrapper">
+                <select
+                  class="booking-select-input"
+                  name="room category"
+                  id="room_category"
+                  title="Оберіть номер"
+                >
+                  <option value="Double room">Двомісний номер</option>
+                  <option value="Double lux" selected>Двомісний люкс</option>
+                  <option value="Family lux">Сімейний люкс</option>
+                  <option value="President lux">Президентський люкс</option>
+                </select>
+              </div>
+
+              <span class="select-icon">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons-full.svg#icon-arrow-down"></use>
+                </svg>
+              </span>
+            </div>
+
+            <label class="booking-form-label" for="room_category"
+              >Категорія номеру</label
+            >
+          </div>
+
+          <div class="booking-dates-wrapper">
+            <div class="booking-room-form-field">
+              <div class="booking-form-input-group">
+                <div class="select-wrapper">
+                  <select
+                    class="booking-select-input"
+                    name="checkin_date"
+                    id="checkin_date"
+                    required
+                  >
+                    <option value="" selected>Сьогодні</option>
+                    <option value="2">Завтра</option>
+                    <option value="3">Післязавтра</option>
+                    <option value="4">Наступного тижня</option>
+                  </select>
+                </div>
+
+                <span class="select-icon">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons-full.svg#icon-arrow-down"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <label class="booking-form-label" for="checkin_date"
+                >Дата заїзду</label
+              >
+            </div>
+            <div class="booking-room-form-field">
+              <div class="booking-form-input-group">
+                <div class="select-wrapper">
+                  <select
+                    class="booking-select-input"
+                    name="checkout_date"
+                    id="checkout_date"
+                    required
+                  >
+                    <option value="" selected>Сьогодні</option>
+                    <option value="2">Завтра</option>
+                    <option value="3">Післязавтра</option>
+                    <option value="4">Наступного тижня</option>
+                  </select>
+                </div>
+
+                <span class="select-icon">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons-full.svg#icon-arrow-down"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <label class="booking-form-label" for="checkout_date"
+                >Дата виїзду</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <button class="booking-table-form-button" type="submit">
+          Oформити бронювання
+        </button>
+      </form>
+    </div>
+
+    <!-- Backdrop for modals -->
+    <div class="backdrop js-overlay-modal"></div>
+
+    <script src="./modal.js"></script>
+  </body>
+</html>
